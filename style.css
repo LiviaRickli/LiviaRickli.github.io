@@ -138,74 +138,60 @@ h3{
 	font-weight: 300;
 }
 
-.image6{
-	background-image: url("images/foto1.jpg");
+.images1,
+.images2,
+.images3,
+.images4,
+.images5,
+.images6,
+.images7,
+.images8,
+.images9,
+.images10,
+.images11 {
 	width: 100%;
 	height: 250px;
 	background-size: cover;
+}
+
+.image6{
+	background-image: url("images/foto1.jpg");
 }
 
 .image2{
 	background-image: url("images/website-jgeurts.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image3{
 	background-image: url("images/website-superbrandm.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image4{
 	background-image: url("images/dinerkaart-walvis.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image5{
 	background-image: url("images/poster-avondcollege.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image7{
 	background-image: url("images/brandbook-weeklywine.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image8{
 	background-image: url("images/dinerkaart-lennep.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image9{
-	background-image: url("images/lunchkaart-katoen-nl.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
+	background-image: url("images/Lunchkaart-katoen-nl.jpg");
 }
 
 .image10{
 	background-image: url("images/presentatie-george.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .image11{
 	background-image: url("images/logo-breakfastclub.jpg");
-	width: 100%;
-	height: 250px;
-	background-size: cover;
 }
 
 .slogan1,

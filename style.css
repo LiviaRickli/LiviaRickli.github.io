@@ -17,6 +17,7 @@ body{
 
 .section1{
 	background: #fff;
+	background-image: url("images/background.jpg");
 }
 
 .container{

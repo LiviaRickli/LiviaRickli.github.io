@@ -116,6 +116,10 @@ header {
 	text-align: center;
 }
 
+.text-content p {
+	color: #06f4b6;
+}
+
 .contact p {
 	width: 400px;
 	margin: 50px auto 0;

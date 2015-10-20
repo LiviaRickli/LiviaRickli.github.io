@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.js"></script>
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Portfolio Livia Rickli</title>
+</head>	
+<body ng-controller="workCtrl">
+<header id="header-work">
+	<div class="logo-container">
+		<img src="images/logo.png" alt="Logo" class="logo">
+	</div>
+</header>
+<main id="main-work">	
+<section class="section-work">
+	<div class="work-container-image">
+		<div class="work-philips">
+			<img class="image image-work" src="images/{{contentItem.image}}" />
+		</div>	
+	</div>
+	<div class="work-container-text">
+		<div class="text-box-work-page">
+			<div class="work-page-text">
+				<h2>{{contentItem.title}}</h2>
+				<p class="second-title">{{contentItem.subtitle}}</p>
+				<p>{{contentItem.text}}</p>
+			</div>
+		</div>	
+	</div>
+	<div class="go-left">
+  		<a href="#"><img src="images/arrow2.png" alt="left-arrow" class="arrow arrow-left" ng-click="prev()"></a>
+	</div>
+	<div class="go-right">
+  		<a href="#"><img src="images/arrow3.png" alt="right-arrow" class="arrow" ng-click="next()"></a>
+	</div>
+</section>
+</main>
+</body>
+</html>

@@ -116,10 +116,6 @@ header {
 	text-align: center;
 }
 
-.text-content p {
-	color: #06f4b6;
-}
-
 .contact p {
 	width: 400px;
 	margin: 50px auto 0;
@@ -201,7 +197,6 @@ hr.hr-about-me {
 	background-image: url("../images/quote-image.jpg");
 	width: 100%;
 	height: 330px;
-	background-repeat: no-repeat;
 }
 
 .quote-container {
@@ -308,6 +303,12 @@ button {
     border: 1px solid #efefef;
 }
 
+.image-work {
+	width: 300px;
+    height: 300px;
+    border: none;
+}
+
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -321,6 +322,10 @@ ul.img-list li {
   margin: 0 10px 10px 0;
   position: relative;
   width: 220px;
+}
+
+.text-content p {
+	color: #06f4b6;
 }
 
 span.text-content {
@@ -379,7 +384,7 @@ ul.img-list li:hover span.text-content {
 }
 
 .image8 {
-    background-image: url("../images/brandbook-mindful.jpg");
+    background-image: url("../images/brandbook-mindful.png");
 }
 
 .image9 {
@@ -387,7 +392,7 @@ ul.img-list li:hover span.text-content {
 }
 
 .image10 {
-    background-image: url("../images/brandbook-boarnster1.jpg");
+    background-image: url("../images/brandbook-boarnster1.png");
 }
 
 .image11 {
@@ -432,4 +437,182 @@ ul.img-list li:hover span.text-content {
 
 .image21 {
     background-image: url("../images/flyer-kkk.png");
+}
+
+
+#main-work {
+	margin: 0 auto;
+}
+
+#header-work {
+	height: 35px;
+}
+
+.work-container-image,
+.work-container-text {
+	display: inline-block;
+    width: 49.8%;
+    height: 680px;
+    vertical-align: top;
+}
+
+.section-work {
+	background-color: #e8e8e8;
+	max-height: 680px;
+}
+
+.work-container-image {
+	background-image: url("../images/back-work.jpg");
+	background-repeat: no-repeat;
+}
+
+.go-left,
+.go-right {
+	position: absolute;
+    top: 340px;
+    width: 30px;
+    height: 35px;
+    background-color: #06f4b6;
+    text-align: center;
+}
+
+.go-left {
+	left: 0;
+}
+
+.arrow-left {
+	margin: 8px 0 0 0;
+}
+
+.go-right {
+    right: 0;
+}
+
+.work-philips {
+	margin: 175px auto;
+	text-align: center;
+	position: absolute;
+	width: 49.8%;
+}
+
+.image-philips {
+	background-image: url("../images/healthprogram-philips2.jpg");	
+	width: 400px;
+	height: 417px;
+	margin: 0 auto;
+}
+
+.text-box-work-page {
+	margin: 225px auto;
+}
+
+.text-box-work-page h2 {
+	font-size: 24px;
+	text-align: left;
+	margin: 0 0 10px 0;
+}
+
+.text-box-work-page p {
+
+}
+
+.second-title {
+	font-size: 24px;
+	font-weight: 300;
+	color: #06f4b6;
+	margin: 0 0 50px 0;
+}
+
+.work-page-text {
+	width: 385px;
+	margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+	main {
+		margin: 210px auto 10px;
+	}
+
+	.header-image {
+    	height: 230px;
+    }
+
+    nav {
+	    top: 70px;
+	    font-size: 10px;
+	}
+
+	nav ul li {
+    	width: 50px;
+	}
+
+	nav ul {
+    	margin-left: 22px;
+	}
+
+	.logo {
+		margin-left: -9px;
+	}
+
+	.title-container {
+		top: 180px;
+	}
+
+	.text-title p {
+    	font-size: 8px;
+	}
+
+	h1 {
+    	font-size: 14px;
+    	margin: 0 0 -15px 0;
+    }
+
+    .h2-work {
+    	margin-bottom: 30px;
+	}
+
+    hr {
+    	width: 135px;
+    	margin: 20px 0 0 110px;
+	}
+
+	button {
+		margin: 30px 0;
+	}
+
+	.wrap-experience {
+    	float: none;
+    	width: 100%;
+	}
+
+	.wrap-experience h3 {
+    	color: #06f4b6;
+	}
+
+	.hr-experience {
+		width: 55px;
+		margin: 20px 0 0 135px;
+	}
+
+	.text-about-right {
+		margin: 50px 0 0 0;
+	}
+
+	.profielfoto {
+    	width: 215px;
+    	height: 215px;
+	}
+
+	.contact p {
+    	width: 280px;
+    	margin: 30px auto 0;
+	}
+
+	.mail-icon, .linkedin-icon {
+    	margin: 0 0 5px 0;
+	}
+
+	.wrap-experience p {
+    	margin: -18px auto 0;
+	}
 }

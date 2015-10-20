@@ -1,0 +1,20 @@
+[
+    {
+        "image": "healthprogram-philips.jpg",
+        "title": "Philips/Allianz",
+        "subtitle": "Web design",
+        "text": "Philips has launched a health program in cooperation with Allianz. Through a voucher code, participants can register via a landing page for this program.For this landing page I created the graphic design and I implemented the front-end (HTML5/CSS)."
+    },
+    {
+        "image": "applicatie-ing.png",
+        "title": "ING Trading",
+        "subtitle": "App design",
+        "text": "bla bla bla bla (HTML5/CSS)."
+    },
+    {
+        "image": "applicatie2-ing.png",
+        "title": "ING Building",
+        "subtitle": "App design",
+        "text": "The purpose of this application is to involve the employees and visitors more into the various buildings of ING. With this application you can among other things register visitors, reserve a room for a meeting per floor per building, finding facilities and you can explore and learn more about all the art in the building. You can explore the building you’re working in."
+    }
+]

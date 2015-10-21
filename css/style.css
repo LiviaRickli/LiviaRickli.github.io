@@ -19,7 +19,53 @@ body {
 
 main {
 	width: 100%;
-	margin: 700px auto 60px;
+	margin: 50px auto;
+}
+
+.dummy-nav {
+    display: none;
+    height: 100px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+	background-color: #404041;
+	height: 70px;
+	Z-index: 1;
+}
+
+nav ul {
+    position: absolute;
+    right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 120px;
+    margin: 25px 0 0 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+}
+
+header {
+	height: 717px;
+	background-color: #70A9A1;
+}
+
+.nav-title {
+	color: white;
+    position: absolute;
+    top: 25px;
+    left: 50px;
 }
 
 h1,
@@ -29,13 +75,33 @@ h1,
 }
 
 h1 {
-	font-size: 60px;
+	font-family: Pacifico, Verdana, sans-serif;
+	font-size: 50px;
 	font-weight: 700;
+	margin: 0 0 40px 10px;
+}
+
+.title-container {
+	position: absolute;
+	top: 310px;
+}
+
+.title-container,
+.logo-container,
+.contact,
+.contact1 {
+	width: 100%;
+	text-align: center;
+}
+
+.text-title {
+	margin: 0 auto;
 }
 
 .text-title p {
 	font-size: 30px;
 	font-weight: 300;
+	margin: 0 0 0 12px;
 }
 
 h2 {
@@ -50,7 +116,6 @@ h2,
 
 h2,
 h3,
-nav ul li a,
 p,
 .wrap-experience h3,
 a {
@@ -77,43 +142,8 @@ a {
 	margin: 0 auto;
 }
 
-.quote p {
-	color: white;
-	font-size: 16px;
-	font-style: italic;
-    line-height: 20px;
-    width: 360px;
-    margin: 0 auto;
-}
-
 p {
 	line-height: 20px;
-}
-
-header {
-	height: 80px;
-	background-color: white;
-}
-
-.header-image {
-	width: 100%;
-	height: 690px;
-	margin: 30px 0 0 0;
-}
-
-.title-container {
-	position: absolute;
-	top: 500px;
-	width: 100%;
-	text-align: center;
-}
-
-.title-container,
-.logo-container,
-.contact,
-.contact1 {
-	width: 100%;
-	text-align: center;
 }
 
 .contact p {
@@ -129,40 +159,22 @@ header {
 	margin-left: -25px;
 }
 
-nav {
-    position: absolute;
-    top: 200px;
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-}
-
-nav ul {
-	margin-left: -15px;
-}
-
-nav ul li {
-	display: inline-block;	
-	width: 150px;
-}
-
-nav ul li a {
-	text-decoration: none;
-	font-weight: bold;
+.hr-top {
+	margin: 50px auto;
+	background-color: white;
+	width: 380px;
 }
 
 hr {
-	width: 370px;
 	background-color: #404041;
 	color: #404041;
 	border-width: 0;
 	height: 2px;
-	noshade: noshade;
 	margin-top: 20px;
 }
 
 .hr-experience {
-	width: 145px;
+	width: 55px;
 }
 
 hr.hr-about-me {
@@ -194,13 +206,22 @@ hr.hr-about-me {
 }
 
 .quote {
-	background-image: url("../images/quote-image.jpg");
-	width: 100%;
-	height: 330px;
+    width: 100%;
+    height: 210px;
+    background-color: #BEE3DB;
 }
 
 .quote-container {
-	margin: 100px auto 0;
+	margin: 20px auto 0;
+}
+
+.quote p {
+	color: #70A9A1;
+	font-size: 16px;
+	font-style: italic;
+    line-height: 20px;
+    width: 360px;
+    margin: 0 auto;
 }
 
 #name-quote {
@@ -255,7 +276,7 @@ hr.hr-about-me {
 }
 
 button {
-	background-color: #06f4b6;
+	background-color: #70A9A1;
 	padding: 8px;
 	border-style: none;
 	font-size: 14px;
@@ -272,7 +293,7 @@ button {
     right: 50px;
     width: 40px;
     height: 35px;
-    background-color: #06f4b6;
+    background-color: #70A9A1;
     text-align: center;
 }
 
@@ -325,7 +346,7 @@ ul.img-list li {
 }
 
 .text-content p {
-	color: #06f4b6;
+	color: #70A9A1;
 }
 
 span.text-content {
@@ -439,9 +460,12 @@ ul.img-list li:hover span.text-content {
     background-image: url("../images/flyer-kkk.png");
 }
 
+#work {
+	margin: 70px 0 0 0;
+}
 
 #main-work {
-	margin: 0 auto;
+	margin: -5px auto 0;
 }
 
 #header-work {
@@ -538,12 +562,15 @@ ul.img-list li:hover span.text-content {
     }
 
     nav {
-	    top: 70px;
 	    font-size: 10px;
 	}
 
 	nav ul li {
-    	width: 50px;
+    	width: 65px;
+	}
+	
+	nav ul li a {
+    	font-size: 12px;
 	}
 
 	nav ul {

@@ -285,6 +285,7 @@ button {
 	font-weight: 600;
 	color: white;
 	margin: 50px 0;
+	border-radius: 4px;
 }
 
 .go-up {

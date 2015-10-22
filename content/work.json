@@ -1,126 +1,147 @@
 [
     {
+		"classname" : "image image100",
         "image": "healthprogram-philips.jpg",
         "title": "Philips/Allianz",
         "subtitle": "Web design",
         "text": "Philips has launched a health program in cooperation with Allianz. Through a voucher code, participants can register via a landing page for this program.For this landing page I created the graphic design and I implemented the front-end (HTML5/CSS)."
     },
     {
-        "image": "applicatie-ing.png",
+        "classname" : "image image101",
+		"image": "trading-ing.png",
         "title": "ING Trading",
         "subtitle": "App design",
-        "text": "bla bla bla bla (HTML5/CSS)."
+        "text": "With this application colleagues can exchange knowledge, deliver or receive services and exchange products. This gives them the chance to get to know each other better, help each other out. This also will strengthening the cohesion and let them explore the social aspects of their colleagues. Over time the app will fill up with more and more information, which can be used as a knowledge base for reoccurring questions or topics. For this application I created and developed the concept, created the wireframes, visual design and a prototype."
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image102",
+		"image": "building-ing.png",
         "title": "ING Building",
         "subtitle": "App design",
-        "text": "The purpose of this application is to involve the employees and visitors more into the various buildings of ING. With this application you can among other things register visitors, reserve a room for a meeting per floor per building, finding facilities and you can explore and learn more about all the art in the building. You can explore the building you’re working in."
+        "text": "The purpose of this application is to involve the employees and visitors more into the various buildings of ING. With this application you can among other things register visitors, reserve a room for a meeting per floor per building, finding facilities and you can explore and learn more about all the art in the building. You can explore the building you’re working in. For this application I developed the concept, wireframes, visual design and a prototype."
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image103",
+		"image": "applicatie2-ing.png",
         "title": "Lefhebbers",
         "subtitle": "Print design|Poster",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image104",
+		"image": "applicatie2-ing.png",
         "title": "Hema",
         "subtitle": "Redesign Responsive web design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image105",
+	    "image": "applicatie2-ing.png",
         "title": "Boarnsterhim State",
         "subtitle": "Print design|Brandbook",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image106",
+		"image": "applicatie2-ing.png",
         "title": "SNS Bank",
         "subtitle": "Redesign Responsive web design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image107",
+		"image": "applicatie2-ing.png",
         "title": "B.amsterdam",
         "subtitle": "Print design|Brochure",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image108",
+		"image": "applicatie2-ing.png",
         "title": "SuperBrand Management",
         "subtitle": "Responsive web design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image109",
+		"image": "applicatie2-ing.png",
         "title": "B.amsterdam",
         "subtitle": "Print design|Poster",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image110",
+		"image": "redesign-menzis.png",
         "title": "Menzis",
         "subtitle": "Redesign App design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image111",
+		"image": "applicatie2-ing.png",
         "title": "Mindful",
         "subtitle": "Print design|Brandbook",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image112",
+		"image": "applicatie2-ing.png",
         "title": "Weekly Wine",
         "subtitle": "Print design|Logo",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image113",
+		"image": "applicatie2-ing.png",
         "title": "Janneke Geurts",
         "subtitle": "Responsive web design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image114",
+		"image": "applicatie2-ing.png",
         "title": "B.amsterdam",
         "subtitle": "Print design|Logo",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image115",
+		"image": "applicatie2-ing.png",
         "title": "Keurmerk Koken Voor Kinderen",
         "subtitle": "Print design|Logo|Pitch|Flyer",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image116",
+		"image": "applicatie2-ing.png",
         "title": "Frog Fairy Tale",
         "subtitle": "Studie CMD|Game design",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image117",
+		"image": "applicatie2-ing.png",
         "title": "Cafe de Walvis",
         "subtitle": "Print design|Menu card",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image118",
+		"image": "applicatie2-ing.png",
         "title": "Bureau Rood",
         "subtitle": "Print design|Logo",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image119",
+		"image": "applicatie2-ing.png",
         "title": "George",
         "subtitle": "Print design|Presentation",
         "text": "Text"
     },
     {
-        "image": "applicatie2-ing.png",
+        "classname" : "image image120",
+		"image": "applicatie2-ing.png",
         "title": "BoenGroen",
         "subtitle": "Print design|Label",
         "text": "Text"

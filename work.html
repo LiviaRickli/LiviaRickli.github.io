@@ -17,14 +17,17 @@
 <header id="header-work">
 	<div class="dummy-nav"></div>
 	<nav>
-		<a href="index.html" class="nav-title">Portfolio</a>
+		<a href="index.html" target="_self"><p class="nav-title">Portfolio</p></a>
+		<p class="title-work-page">WORK</p>
 	</nav>
 </header>
 <main id="main-work">	
+<a href="index.html">Portfolio</a>
 <section class="section-work">
 	<div class="work-container-image">
 		<div class="work-philips">
-			<img class="image image-work" src="images/{{contentItem.image}}" />
+			<!-- <img class="image image-work" src="images/{{contentItem.image}}" /> -->
+			<div class="image-work" ng-class="contentItem.classname"></div>
 		</div>	
 	</div>
 	<div class="work-container-text">

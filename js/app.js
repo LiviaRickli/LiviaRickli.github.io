@@ -24,7 +24,7 @@ app.controller('workCtrl',function($window, $scope, $resource,$location){
 			} else {
             $scope.index = 0;
             }
-                                              
+
 			$scope.contentItem = content[$scope.index];
 			$scope.next = function(){
 			if($scope.index < content.length-1){
@@ -34,7 +34,7 @@ app.controller('workCtrl',function($window, $scope, $resource,$location){
                 }
                 $scope.contentItem = content[$scope.index];
                 }
-                                              
+
 				$scope.prev = function(){
 					if($scope.index > 0){
 						$scope.index = $scope.index-1;
@@ -42,8 +42,8 @@ app.controller('workCtrl',function($window, $scope, $resource,$location){
                         $scope.index = 0;
                         }
                         $scope.contentItem = content[$scope.index];
-                        }                                                            
-		});                          
+                        }
+		});
 });
 
 $(function() {

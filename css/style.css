@@ -325,12 +325,6 @@ button {
     border: 1px solid #efefef;
 }
 
-.image-work {
-	width: 300px;
-    height: 300px;
-    border: none;
-}
-
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -487,8 +481,7 @@ ul.img-list li:hover span.text-content {
 }
 
 .work-container-image {
-	background-image: url("../images/back-work.jpg");
-	background-repeat: no-repeat;
+	background-color: white
 }
 
 .go-left,
@@ -497,7 +490,7 @@ ul.img-list li:hover span.text-content {
     top: 340px;
     width: 30px;
     height: 35px;
-    background-color: #06f4b6;
+    background-color: #70A9A1;
     text-align: center;
 }
 
@@ -514,16 +507,23 @@ ul.img-list li:hover span.text-content {
 }
 
 .work-philips {
-	margin: 175px auto;
+	margin: 115px auto;
 	text-align: center;
 	position: absolute;
 	width: 49.8%;
 }
 
-.image-philips {
-	background-image: url("../images/healthprogram-philips2.jpg");	
+/*.image-philips {
+	background-image: url("../images/healthprogram-philips2.jpg");
 	width: 400px;
 	height: 417px;
+	margin: 0 auto;
+}*/
+
+.image-work {
+	width: 500px;
+    height: 450px;
+    border: none;
 	margin: 0 auto;
 }
 
@@ -537,20 +537,36 @@ ul.img-list li:hover span.text-content {
 	margin: 0 0 10px 0;
 }
 
-.text-box-work-page p {
-
+.title-work-page {
+	color: #70A9A1;
+	margin: 0 auto;
+	text-align: center;
+    margin: 24px;
+    font-size: 24px;
 }
 
 .second-title {
 	font-size: 24px;
 	font-weight: 300;
-	color: #06f4b6;
+	color: #70A9A1;
 	margin: 0 0 50px 0;
 }
 
 .work-page-text {
 	width: 385px;
 	margin: 0 auto;
+}
+
+.image100 {
+	background-image: url("../images/webdesign-philips.png");
+}
+
+.image101 {
+	background-image: url("../images/trading-ing.png");
+}
+
+.image102 {
+	background-image: url("../images/building-ing.png");
 }
 
 @media (min-width: 320px) and (max-width: 568px) {

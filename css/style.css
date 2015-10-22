@@ -569,6 +569,30 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/building-ing.png");
 }
 
+.image103 {
+	background-image: url("../images/webdesign-sns.png");
+}
+
+.image104 {
+	background-image: url("../images/webdesign-hema.png");
+}
+
+.image105 {
+	background-image: url("../images/brandbook-boarnsterhim.png");
+}
+
+.image106 {
+	background-image: url("../images/redesign-menzis.png");
+}
+
+.image107 {
+	background-image: url("../images/webdesign-hema.png");
+}
+
+.image108 {
+	background-image: url("../images/webdesign-superbrand.png");
+}
+
 @media (min-width: 320px) and (max-width: 568px) {
 	main {
 		margin: 210px auto 10px;

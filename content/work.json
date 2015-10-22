@@ -23,8 +23,8 @@
     {
         "classname" : "image image103",
 		"image": "applicatie2-ing.png",
-        "title": "Lefhebbers",
-        "subtitle": "Print design|Poster",
+        "title": "SNS Bank",
+        "subtitle": "Redesign Responsive web design",
         "text": "Text"
     },
     {
@@ -43,9 +43,9 @@
     },
     {
         "classname" : "image image106",
-		"image": "applicatie2-ing.png",
-        "title": "SNS Bank",
-        "subtitle": "Redesign Responsive web design",
+		"image": "redesign-menzis.png",
+        "title": "Menzis",
+        "subtitle": "Redesign App design",
         "text": "Text"
     },
     {
@@ -71,9 +71,9 @@
     },
     {
         "classname" : "image image110",
-		"image": "redesign-menzis.png",
-        "title": "Menzis",
-        "subtitle": "Redesign App design",
+		"image": "applicatie2-ing.png",
+		"title": "Lefhebbers",
+		"subtitle": "Print design|Poster",
         "text": "Text"
     },
     {

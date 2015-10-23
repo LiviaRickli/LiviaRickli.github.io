@@ -593,6 +593,26 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/webdesign-superbrand.png");
 }
 
+@media (min-width: 1681px){
+	header {
+		height: 1015px;
+	}
+	
+	.title-container {
+		top: 470px;
+	}
+}
+
+@media (min-width: 1441px){
+	header {
+		height: 867px;
+	}
+	
+	.title-container {
+		top: 400px;
+	}
+}
+
 @media (min-width: 320px) and (max-width: 568px) {
 	main {
 		margin: 210px auto 10px;

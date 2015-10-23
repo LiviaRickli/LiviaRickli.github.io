@@ -117,7 +117,6 @@ h2,
 h2,
 h3,
 p,
-.wrap-experience h3,
 a {
 	color: #404041;
 }
@@ -273,6 +272,10 @@ hr.hr-about-me {
 
 .wrap-experience {
 	padding: 2px;
+}
+
+.wrap-experience h3 {
+    color: #70A9A1;
 }
 
 .btn {
@@ -622,7 +625,7 @@ ul.img-list li:hover span.text-content {
 	}
 }
 
-@media (min-width: 569px) {
+@media (min-width: 569px) and (max-width: 1100px) {
 	header{
 		height: 967px;
 	}
@@ -641,6 +644,18 @@ ul.img-list li:hover span.text-content {
 	
 	.title-container {
 	    top: 400px;
+	}
+	
+	.text-about p {
+	    padding: 20px 10px 0 0;
+	}
+	
+	.text-about {
+	    width: 340px;
+	}
+	
+	.text-about-right {
+	    margin: 0 -20px 0 40px;
 	}
 }
 
@@ -719,8 +734,8 @@ ul.img-list li:hover span.text-content {
 		width: 200px;
 	}
 
-	.wrap-experience {
-    	float: none;
+	.wrap {
+    	display: block;
     	width: 100%;
 	}
 

@@ -603,7 +603,7 @@ ul.img-list li:hover span.text-content {
 @media (min-width: 1680px){
 	
 	#main-work {
-		height: 971px;
+		height: 1001px;
 	}
 	
 	.section-work {
@@ -627,16 +627,38 @@ ul.img-list li:hover span.text-content {
 	}
 	
 	.work-philips {
-		margin: 265px auto;
+		margin: 265px auto 0;
 	}
 	
 	.text-box-work-page {
-	    margin: 365px auto;
+	    margin: 365px auto 0;
 	}
 	
 	.go-left, 
 	.go-right {
 	    top: 520px;
+	}
+	
+	.image-work {
+	    width: 600px;
+	    height: 550px;
+	}
+	
+	.wrap-experience h3{
+		font-size: 18px;
+	}
+	
+	.wrap-experience p {
+		font-size: 15px;
+	}
+	
+	.quote p {
+		font-size: 20px;
+		width: 450px;
+	}
+	
+	#name-quote {
+		font-size: 14px;
 	}
 }
 

@@ -489,7 +489,7 @@ ul.img-list li:hover span.text-content {
 
 .section-work {
 	background-color: #e8e8e8;
-	max-height: 680px;
+	height: 680px;
 }
 
 .work-container-image {
@@ -605,7 +605,24 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/webdesign-superbrand.png");
 }
 
-@media (min-width: 1681px){
+@media (min-width: 1680px){
+	
+	#main-work {
+	    height: 1021px;
+	}
+	
+	.section-work {
+		height: 100%;
+	}
+	
+	#header-work {
+	    height: 0;
+	}
+		
+	.work-container-image {
+	    height: 100%;
+	}
+		
 	header {
 		height: 1015px;
 	}
@@ -613,9 +630,22 @@ ul.img-list li:hover span.text-content {
 	.title-container {
 		top: 470px;
 	}
+	
+	.work-philips {
+		margin: 265px auto;
+	}
+	
+	.text-box-work-page {
+	    margin: 365px auto;
+	}
+	
+	.go-left, 
+	.go-right {
+	    top: 520px;
+	}
 }
 
-@media (min-width: 1441px){
+@media (min-width: 1441px) and (max-widht: 1680px){
 	header {
 		height: 867px;
 	}

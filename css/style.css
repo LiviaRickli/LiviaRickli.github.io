@@ -490,7 +490,7 @@ ul.img-list li:hover span.text-content {
 
 .section-work {
 	background-color: #e8e8e8;
-	height: 100%
+	height: 100%;
 }
 
 .work-container-image {
@@ -526,13 +526,6 @@ ul.img-list li:hover span.text-content {
 	width: 49.8%;
 }
 
-/*.image-philips {
-	background-image: url("../images/healthprogram-philips2.jpg");
-	width: 400px;
-	height: 417px;
-	margin: 0 auto;
-}*/
-
 .image-work {
 	width: 500px;
     height: 450px;
@@ -555,7 +548,8 @@ ul.img-list li:hover span.text-content {
 	margin: 0 auto;
 	text-align: center;
     margin: 24px;
-    font-size: 24px;
+    font-size: 20px;
+	font-family: Pacifico, Verdana, sans-serif;
 }
 
 .second-title {
@@ -704,6 +698,32 @@ ul.img-list li:hover span.text-content {
 	
 	.text-about-right {
 	    margin: 0 -20px 0 40px;
+	}
+	
+	.work-container-image, .work-container-text {
+		display: block;
+		width: 100%;
+	}
+	
+	.work-philips {
+	    margin: 65px auto 0;
+	    position: initial;
+		width: 100%;
+	}
+	
+	.work-container-text {
+		background-color: #e8e8e8;
+		height: 80%;
+	}
+	
+	.text-box-work-page {
+	    margin: -25px auto 0;
+	    padding: 55px 0 0 0;
+	}
+	
+	.section-work {
+	    background-color: white;
+		height: 70%;
 	}
 }
 

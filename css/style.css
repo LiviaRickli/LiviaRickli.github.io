@@ -261,9 +261,18 @@ hr.hr-about-me {
 	height: 265px;
 }
 
+.experience-container {
+	text-align: center;
+}
+	
+.wrap {
+	display: inline-block;
+	width: 19%;
+	vertical-align: top;
+}
+
 .wrap-experience {
-	float: left;
-    width: 20%;
+	padding: 2px;
 }
 
 .btn {
@@ -610,6 +619,28 @@ ul.img-list li:hover span.text-content {
 	
 	.title-container {
 		top: 400px;
+	}
+}
+
+@media (min-width: 569px) {
+	header{
+		height: 967px;
+	}
+		
+	.wrap {
+	    width: 33%;
+	}
+	
+	.text-about-right {
+	    margin: 0 -70px 0 10px;
+	}
+	
+	.text-about {
+		width: 320px;
+	}
+	
+	.title-container {
+	    top: 400px;
 	}
 }
 

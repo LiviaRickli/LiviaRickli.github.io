@@ -615,13 +615,27 @@ ul.img-list li:hover span.text-content {
 
 @media (min-width: 320px) and (max-width: 568px) {
 	main {
-		margin: 210px auto 10px;
+	    margin: 30px auto 10px;
+	}
+	
+	#work {
+		margin: 30px 0 0 0;
+	}
+	
+	header {
+		height: 517px;
+	}
+	
+	.hr-top {
+	    margin: 20px auto;
+	    width: 150px;
+		height: 1px;
 	}
 
-	.header-image {
-    	height: 230px;
-    }
-
+	.nav-title {
+		left: 20px;
+	}
+		
     nav {
 	    font-size: 10px;
 	}
@@ -636,6 +650,7 @@ ul.img-list li:hover span.text-content {
 
 	nav ul {
     	margin-left: 22px;
+		right: 10px;
 	}
 
 	.logo {
@@ -643,17 +658,18 @@ ul.img-list li:hover span.text-content {
 	}
 
 	.title-container {
-		top: 180px;
+	    top: 225px;
 	}
 
 	.text-title p {
-    	font-size: 8px;
+    	font-size: 12px;
+	    margin: 0 0 0 6px;
 	}
 
 	h1 {
-    	font-size: 14px;
-    	margin: 0 0 -15px 0;
-    }
+	    font-size: 20px;
+	    margin: 0;
+	}
 
     .h2-work {
     	margin-bottom: 30px;
@@ -667,6 +683,10 @@ ul.img-list li:hover span.text-content {
 	button {
 		margin: 30px 0;
 	}
+	
+	.quote p {
+		width: 200px;
+	}
 
 	.wrap-experience {
     	float: none;
@@ -674,7 +694,7 @@ ul.img-list li:hover span.text-content {
 	}
 
 	.wrap-experience h3 {
-    	color: #06f4b6;
+    	color: #70A9A1;
 	}
 
 	.hr-experience {
@@ -682,6 +702,15 @@ ul.img-list li:hover span.text-content {
 		margin: 20px 0 0 135px;
 	}
 
+	.text-about{
+		padding: 20px;
+		width: 300px;
+	}
+	
+	.text-about p {
+	    padding: 20px 0 0 0;
+	}
+		
 	.text-about-right {
 		margin: 50px 0 0 0;
 	}

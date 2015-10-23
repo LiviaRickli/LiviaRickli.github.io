@@ -600,7 +600,7 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/webdesign-superbrand.png");
 }
 
-@media (min-width: 1680px){
+@media (min-width: 1681px){
 	
 	#main-work {
 		height: 1001px;
@@ -662,10 +662,10 @@ ul.img-list li:hover span.text-content {
 	}
 }
 
-@media (min-width: 1441px) and (max-widht: 1680px){
+@media (min-width: 1441px){
 	
 	#main-work {
-		height: 971px;
+		height: 851px;
 	}
 	
 	.section-work {
@@ -686,6 +686,19 @@ ul.img-list li:hover span.text-content {
 	
 	.title-container {
 		top: 400px;
+	}
+	
+	.go-left, 
+	.go-right {
+	    top: 420px;
+	}
+	
+	.text-box-work-page {
+	    margin: 355px auto 0;
+	}
+	
+	.work-philips {
+	    margin: 225px auto 0;
 	}
 }
 

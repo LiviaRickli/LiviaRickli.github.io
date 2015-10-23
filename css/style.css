@@ -846,4 +846,55 @@ ul.img-list li:hover span.text-content {
 	.wrap-experience p {
     	margin: -18px auto 0;
 	}
+	
+	.work-container-image, .work-container-text {
+		display: block;
+		width: 100%;
+	}
+	
+	.work-philips {
+	    margin: 75px auto 0;
+	    position: initial;
+		width: 100%;
+	}
+	
+	.work-container-text {
+		background-color: #e8e8e8;
+		height: 80%;
+	}
+	
+	.text-box-work-page {
+	    margin: -25px auto 0;
+	    padding: 25px 0 0 0;
+	}
+	
+	.section-work {
+	    background-color: white;
+		height: 45%;
+	}
+	
+	.image-work {
+	    width: 300px;
+	    height: 250px;
+	}
+	
+	.go-left, .go-right {
+	    top: 353px;
+	}
+	
+	.work-page-text {
+	    width: 285px;
+	}
+	
+	.text-work-items {
+		font-size: 12px;
+	}
+	
+	.work-container-text {
+	    height: 104%;
+	}
+	
+	.second-title {
+	    margin: 0 0 25px 0;
+	}
 }

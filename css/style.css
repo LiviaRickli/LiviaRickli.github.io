@@ -605,6 +605,10 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/webdesign-superbrand.png");
 }
 
+.image113 {
+	background-image: url("../images/webdesign-jannekeg.png");
+}
+
 @media (min-width: 1681px){
 	
 	#main-work {

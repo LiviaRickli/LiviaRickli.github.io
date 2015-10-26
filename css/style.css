@@ -624,6 +624,10 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/flyer-bamsterdam.png");
 }
 
+.image112 {
+	background-image: url("../images/brand-weeklywine.png");
+}
+
 @media (min-width: 1681px){
 	
 	#main-work {

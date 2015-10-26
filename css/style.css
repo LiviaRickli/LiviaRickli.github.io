@@ -620,6 +620,10 @@ ul.img-list li:hover span.text-content {
 	height: 550px;
 }
 
+.image109 {
+	background-image: url("../images/flyer-bamsterdam.png");
+}
+
 @media (min-width: 1681px){
 	
 	#main-work {

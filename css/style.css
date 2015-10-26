@@ -534,13 +534,18 @@ ul.img-list li:hover span.text-content {
 }
 
 .text-box-work-page {
-	margin: 155px auto 0;
+	margin: 185px auto 0;
 }
 
 .text-box-work-page h2 {
 	font-size: 24px;
 	text-align: left;
 	margin: 0 0 10px 0;
+}
+
+.work-page-text p {
+    margin: 0 0 20px 0;
+    font-size: 14px;
 }
 
 .title-work-page {

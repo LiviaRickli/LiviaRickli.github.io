@@ -591,7 +591,6 @@ ul.img-list li:hover span.text-content {
 
 .image105 {
 	background-image: url("../images/brandbook-boarnsterhim.png");
-	height: 550px;
 }
 
 .image106 {
@@ -600,7 +599,6 @@ ul.img-list li:hover span.text-content {
 
 .image107 {
 	background-image: url("../images/brochure-b.amsterdam.png");
-	height: 550px;
 }
 
 .image108 {
@@ -617,7 +615,6 @@ ul.img-list li:hover span.text-content {
 
 .image111 {
 	background-image: url("../images/brandbook-mindful1.png");
-	height: 550px;
 }
 
 .image109 {
@@ -626,6 +623,13 @@ ul.img-list li:hover span.text-content {
 
 .image112 {
 	background-image: url("../images/brand-weeklywine.png");
+}
+
+.image105,
+.image107,
+.image111{
+	height: 550px;
+	margin: -20px auto 0;
 }
 
 @media (min-width: 1681px){

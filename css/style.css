@@ -550,6 +550,8 @@ ul.img-list li:hover span.text-content {
 
 .work-text2{
 	font-style: italic;
+	font-style: 12px;
+	padding: 10px;
 }
 
 .title-work-page {

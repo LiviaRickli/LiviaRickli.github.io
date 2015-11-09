@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngResource','ngTouch'], function($locationProvider) {
+var app = angular.module('app', ['ngResource'], function($locationProvider) {
       $locationProvider.html5Mode({
                                                enabled: true,
                                                requireBase: false

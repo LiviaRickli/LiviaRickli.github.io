@@ -60,3 +60,10 @@ $(function() {
     }
   });
 });
+
+$(window).resize(function() {
+
+ console.log(window.innerHeight);
+
+  $('#home').css('height', window.innerHeight+'px');
+});

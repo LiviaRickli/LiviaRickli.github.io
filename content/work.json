@@ -84,7 +84,7 @@
 		"title": "Lefhebbers",
 		"subtitle": "Print design|Poster",
         "text": "Lefhebbers is a design and advertising agency from Amsterdam.",
-    	"text1": "I worked there as a graphic designer, where I made this Poster for them. I choose a design that is different from others and stands out because of the text and image.",
+    	"text1": "When I worked there as a graphic designer, I made this Poster for them. I choose a design that I think is different from others and stands out because of the combination of the text and image.",
 		"text2": ""
 	},
     {
@@ -99,15 +99,15 @@
         "classname" : "image image112",
         "title": "Weekly Wine",
         "subtitle": "Print design|Logo",
-        "text": "Text",
-    	"text1": "",
+        "text": "Weekly Wine is a wine brand that provides a subscription to a wine box which you can order weekly",
+    	"text1": "For this I created the concept and brand, and designed the logo and brandbook.",
 		"text2": ""
 	},
     {
         "classname" : "image image109",
         "title": "B.amsterdam",
         "subtitle": "Print design|Poster",
-        "text": "Text",
+        "text": "B.amsterdam is an big office building placed in Amsterdam where many start-ups and small businesses have established themselves, but it also rents out spaces for events.",
     	"text1": "",
 		"text2": ""
 	},
@@ -115,8 +115,8 @@
         "classname" : "image image114",
         "title": "B.amsterdam",
         "subtitle": "Print design|Logo",
-        "text": "Text",
-    	"text1": "",
+        "text": "B.amsterdam also created a breakfastclub where all the contributors of the building can eat their breakfast.",
+    	"text1": "For this I designed a logo, so they can use it for flyers or posters in the building.",
 		"text2": ""
     },
     {

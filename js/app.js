@@ -18,7 +18,6 @@ app.controller('mainCtrl',function($window, $scope){
 app.controller('workCtrl',function($window, $scope, $resource,$location){
 	var content = $resource('content/work.json').query(function(){
 		$scope.page = $location.search().page;
-        console.log($scope.page);
         if(($scope.page  !== undefined) && $scope.page > 0 && $scope.page <= content.length){
 			$scope.index = $scope.page-1;
 			} else {
@@ -62,8 +61,5 @@ $(function() {
 });
 
 $(window).resize(function() {
-
- console.log(window.innerHeight);
-
   $('#home').css('height', window.innerHeight+'px');
 });

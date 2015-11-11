@@ -61,5 +61,10 @@ $(function() {
 });
 
 $(window).resize(function() {
-  $('#home').css('height', window.innerHeight+'px');
+	if(window.innerHeight > 650 ) {
+  		$('#home').css('height', window.innerHeight+'px'); 
+ 		} else {
+  			$('#home').css('height','650px'); 
+  			console.log('min');
+ 	}
 });

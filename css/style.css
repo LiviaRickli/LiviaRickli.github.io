@@ -467,6 +467,14 @@ ul.img-list li:hover span.text-content {
     background-image: url("../images/flyer-kkk.png");
 }
 
+.image22 {
+    background-image: url("../images/game-cqthartslag1.png");
+}
+
+.image23 {
+    background-image: url("../images/menucard-katoen");
+}
+
 #work {
 	margin: 70px 0 0 0;
 }
@@ -657,6 +665,14 @@ ul.img-list li:hover span.text-content {
 
 .image120 {
 	background-image: url("../images/etiket-boengroen.png");
+}
+
+.image121 {
+	background-image: url("../images/game-cqthartslag.png");
+}
+
+.image122 {
+	background-image: url("../images/menucard-katoen1.png");
 }
 
 .image105,

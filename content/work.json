@@ -166,5 +166,21 @@
         "text": "BoenGroen is a cleaning company from Amsterdam.",
     	"text1": "I designed a label for them which can be used on cleaning products.",
 		"text2": ""
+    },
+    {
+        "classname" : "image image121",
+        "title": "Katoen",
+        "subtitle": "Print design|Menu card",
+        "text": "Katoen is a restaurant located in Amsterdam.",
+    	"text1": "For this I created the visual design.",
+		"text2": ""
+    },
+    {
+        "classname" : "image image122",
+        "title": "CQT",
+        "subtitle": "iPad design|Serious game development",
+        "text": "Text",
+    	"text1": "Text",
+		"text2": ""
     }
 ]

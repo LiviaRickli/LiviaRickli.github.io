@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 header {
-	height: 717px;
+	height: 480px;
 	background-color: #70A9A1;
 }
 
@@ -99,7 +99,7 @@ h1 {
 }
 
 .text-title {
-	margin: -100 auto;
+	margin: -100px auto;
 }
 
 h2 {
@@ -329,8 +329,8 @@ button {
 }
 
 .image {
-	width: 220px;
-    height: 190px;
+	width: 250px;
+    height: 220px;
     background-size: cover;
     border: 1px solid #efefef;
 }
@@ -344,10 +344,10 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  height: 190px;
-  margin: 0 10px 10px 0;
+  height: 220px;
+  margin: 0 15px 15px 0;
   position: relative;
-  width: 220px;
+  width: 250px;
 }
 
 .text-content p {
@@ -359,11 +359,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 190px;
+  height: 220px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 220px;
+  width: 250px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;

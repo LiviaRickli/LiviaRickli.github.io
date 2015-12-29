@@ -7,40 +7,45 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="js/app.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Pacifico">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Pacifico|Josefin+Sans&subset=latin,latin-ext">
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio Livia Rickli</title>
-</head>	
+</head>		
 <body ng-controller="workCtrl">
 <header id="header-work">
 	<div class="dummy-nav"></div>
-	<nav>
-		<a href="index.html" target="_self"><p class="nav-title">Portfolio</p></a>
-		<p class="title-work-page">Livia Rickli</p>
+	<nav class="nav-work">
+		<h1 class="nav-title"><a href="index.html" target="_self">Livia Rickli</a></h1>
+		<ul>
+  			<li><a href="web.html" target="_self">Web design</a></li>
+			<li><a href="app.html" target="_self">App design</a></li>
+			<li><a href="print.html" target="_self">Print design</a></li>
+  			<li><a href="about.html" target="_self">About</a></li>
+		</ul>
 	</nav>
 </header>
-<main id="main-work">	
-<a href="index.html">Portfolio</a>
-<section class="section-work">
-	<div class="work-container-image" ng-swipe-right="prev()" ng-swipe-left="next()">
-		<div class="work-philips">
-			<a ng-click="next()"><div class="image-work" ng-class="contentItem.classname"></div></a>
-		</div>	
+<main id="main-work">
+<section id="home">
+	<div>
+		<div class="work-container work-container-image" ng-swipe-right="prev()" ng-swipe-left="next()">
+			<div class="work-philips">
+				<a ng-click="next()"><div class="image-work" ng-class="contentItem.classname"></div></a>
+			</div>	
+		</div>
+		<div class="work-container">
+				<div class="work-container-text text-box-work">
+					<h2>{{contentItem.title}}</h2>
+					<p class="second-title">{{contentItem.subtitle}}</p>
+					<p class="text-work-items">{{contentItem.text}}</p>
+					<p class="text-work-items">{{contentItem.text1}}</p>
+					<p class="text-work-items" id="work-text2">{{contentItem.text2}}</p>
+				</div>
+		</div>
 	</div>
-	<div class="work-container-text">
-		<div class="text-box-work-page">
-			<div class="work-page-text">
-				<h2>{{contentItem.title}}</h2>
-				<p class="second-title">{{contentItem.subtitle}}</p>
-				<p class="text-work-items">{{contentItem.text}}</p>
-				<p class="text-work-items">{{contentItem.text1}}</p>
-				<p class="text-work-items" id="work-text2">{{contentItem.text2}}</p>
-			</div>
-		</div>	
-	</div>
+
 	<div class="go-left">
   		<a href="#"><img src="images/arrow2.png" alt="left-arrow" class="arrow arrow-left" ng-click="prev()"></a>
 	</div>

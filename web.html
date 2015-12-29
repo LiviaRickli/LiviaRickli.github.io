@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-touch.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Pacifico|Josefin+Sans&subset=latin,latin-ext">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Livia Rickli</title>
+</head>	
+<body ng-controller="mainCtrl">
+<header id="home">
+	<div class="dummy-nav"></div>
+	<nav>
+		<h1 class="nav-title"><a href="index.html">Livia Rickli</a></h1>
+		<ul>
+  			<li><a href="web.html">Web design</a></li>
+			<li><a href="app.html">App design</a></li>
+			<li><a href="print.html">Print design</a></li>
+  			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+	<div class="title-container">
+		<div class="text-title">
+			<p>I am a UX & UI designer, currently living in Amsterdam, with 
+				a passion for creating online & offline designs that are useful, 
+				distinctive and meaningful to users.</p>
+		</div>
+	</div>
+</header>
+<main>
+<section id="work">
+		<h2 class="h2-work">WORK</h2>
+		<ul class="img-list">
+		  <li>
+		    <a href="work.html">
+		      <div class="image image1"></div>
+		      <span class="text-content"><span>Philips/Allianz<br><br><p>Web design</p></span></span>
+		    </a>
+		  </li>
+  		  <li>
+  		    <a href="work.html?page=4">
+  		      <div class="image image7"></div>
+  		      <span class="text-content"><span>SNS Bank<br><br><p>Redesign Responsive webdesign<p></span></span>
+  		    </a>
+  		  </li>
+		  <li>
+		    <a href="work.html?page=5">
+		      <div class="image image6"></div>
+		      <span class="text-content"><span>Hema<br><br><p>Redesign Responsive webdesign</p></span></span>
+		    </a>
+		  </li>
+		</ul>
+		<ul class="img-list">
+		  <li>
+		    <a href="work.html?page=9">
+		      <div class="image image16"></div>
+		      <span class="text-content"><span>SuperBrand Management<br><br><p>Repsonsive website</p></span></span>
+		    </a>
+		  </li>
+		  <li>
+		    <a href="work.html?page=10">
+		      <div class="image image20"></div>
+		      <span class="text-content"><span>Janneke Geurts<br><br><p>Repsonsive website</p></span></span>
+		    </a>
+		  </li>
+		  <li>
+		    <a href="">
+		      <div class="image empty"></div>
+		    </a>
+		  </li>
+		</ul>
+		</div>
+</section>
+<div class="go-up" ng-show="scrollPos > 800">
+  	<a href="#home"><img src="images/arrow.png" alt="arrow" class="arrow"></a>
+</div>
+</main>
+</body>
+</html>

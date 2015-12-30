@@ -68,3 +68,32 @@ $(function() {
 //   			console.log('min');
 //  	}
 // });
+
+window.onload = function() {
+ setTimeout(function() {
+  // preload image
+  new Image().src = "http://liviarickli.nl/images/webdesign-philips-allianz.png";
+  new Image().src = "http://liviarickli.nl/images/trading-ing.png";
+  new Image().src = "http://liviarickli.nl/images/building-ing.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-sns.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-hema.png";
+  new Image().src = "http://liviarickli.nl/images/brandbook-boarnsterhim.png";
+  new Image().src = "http://liviarickli.nl/images/redesign-menzis.png";
+  new Image().src = "http://liviarickli.nl/images/brochure-b.amsterdam.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-superbrand.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-jannekeg.png";
+  new Image().src = "http://liviarickli.nl/images/poster-lefhebbers1.png";
+  new Image().src = "http://liviarickli.nl/images/brandbook-mindful1.png";
+  new Image().src = "http://liviarickli.nl/images/flyer-bamsterdam.png";
+  new Image().src = "http://liviarickli.nl/images/brand-weeklywine.png";
+  new Image().src = "http://liviarickli.nl/images/logo-breakfast.png";
+  new Image().src = "http://liviarickli.nl/images/flyer-keurmerk.png";
+  new Image().src = "http://liviarickli.nl/images/gamedesign.png";
+  new Image().src = "http://liviarickli.nl/images/menucard-walvis.png";
+  new Image().src = "http://liviarickli.nl/images/menucard-lennep.png";
+  new Image().src = "http://liviarickli.nl/images/presentation-george.png";
+  new Image().src = "http://liviarickli.nl/images/etiket-boengroen.png";
+  new Image().src = "http://liviarickli.nl/images/game-cqthartslag.png";
+  new Image().src = "http://liviarickli.nl/images/menucard-katoen1.png";
+ }, 1000);
+};

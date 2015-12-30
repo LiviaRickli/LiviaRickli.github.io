@@ -681,6 +681,10 @@ ul.img-list li:hover span.text-content {
 	.text-box-work {
     		padding: 120px 0 0 90px;
 	}
+	
+	.image105, .image107, .image111 {
+		height: 850px;
+	}
 }
 
 @media (min-width: 1441px) and (max-width: 1680px){

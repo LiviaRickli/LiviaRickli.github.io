@@ -669,6 +669,18 @@ ul.img-list li:hover span.text-content {
 	#name-quote {
 		font-size: 14px;
 	}
+	
+	.work-container {
+    		padding: 90px 0 0px 110px;
+	}
+	
+	.work-container-text {
+    		width: 540px;
+	}
+	
+	.text-box-work {
+    		padding: 120px 0 0 90px;
+	}
 }
 
 @media (min-width: 1441px) and (max-width: 1680px){

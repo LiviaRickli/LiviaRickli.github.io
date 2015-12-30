@@ -695,15 +695,7 @@ ul.img-list li:hover span.text-content {
 	#header-work {
 	    height: 0;
 	}
-	
-/*	header {
-		height: 450px;
-	}*/
-	
-	.title-container {
-		top: 400px;
-	}
-	
+
 	.go-left, 
 	.go-right {
 	    top: 420px;

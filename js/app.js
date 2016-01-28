@@ -126,5 +126,7 @@ window.onload = function() {
   new Image().src = "http://liviarickli.nl/images/banners-principlevastgoed.png";
   new Image().src = "http://liviarickli.nl/images/banner-perfecth.png";
   new Image().src = "http://liviarickli.nl/images/banner-perfecth.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-sogeti.png";
+  new Image().src = "http://liviarickli.nl/images/webdesign-sogeti1.png";
  }, 1000);
 };

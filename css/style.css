@@ -456,6 +456,10 @@ ul.img-list li:hover span.text-content {
     background-image: url("../images/banner-perfecth.png");
 }
 
+.image28 {
+    background-image: url("../images/webdesign-sogeti.png");
+}
+
 #work {
     margin: -170px 0 70px 0;
     position: relative;
@@ -655,6 +659,10 @@ ul.img-list li:hover span.text-content {
 
 .image126 {
 	background-image: url("../images/event-superopkikkerdag.png");
+}
+
+.image127 {
+	background-image: url("../images/webdesign-sogeti1.png");
 }
 
 .image105,

@@ -175,6 +175,22 @@
     	"text1": "For this I created the visual design.",
 		"text2": ""
     },
+	{
+        "classname" : "image image124",
+        "title": "Principle Vastgoed",
+        "subtitle": "Print design|Banners",
+        "text": "Principle Vastgoed is...",
+    	"text1": "For this I created the visual design. I also created the landing page...",
+		"text2": ""
+    },
+	{
+        "classname" : "image image125",
+        "title": "Perfect Housing",
+        "subtitle": "Print design|Banners",
+        "text": "Perfect Housing is",
+    	"text1": "For this I created the visual design. I also created the landing page...",
+		"text2": ""
+    },	
     {
         "classname" : "image image120",
         "title": "BoenGroen",
@@ -184,7 +200,7 @@
 		"text2": ""
     },
     {
-        "classname" : "image image122",
+        "classname" : "image image123",
         "title": "Cafe Gruter",
         "subtitle": "Print design|Menu card",
         "text": "Cafe Gruter is a cafe in Amsterdam. The cafe changed their Gin menu, so they were looking for a new menu card.",

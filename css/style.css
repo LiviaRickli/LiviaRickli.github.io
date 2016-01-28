@@ -633,12 +633,24 @@ ul.img-list li:hover span.text-content {
 	background-image: url("../images/etiket-boengroen.png");
 }
 
+.image121 {
+	background-image: url("../images/menucard-katoen1.png");
+}
+
 .image122 {
 	background-image: url("../images/game-cqthartslag.png");
 }
 
-.image121 {
-	background-image: url("../images/menucard-katoen1.png");
+.image123 {
+	background-image: url("../images/menu-gin.png");
+}
+
+.image124 {
+	background-image: url("../images/banners-principlevastgoed.png");
+}
+
+.image125 {
+	background-image: url("../images/banners-perfecth.png");
 }
 
 .image105,

@@ -873,6 +873,10 @@ ul.img-list li:hover span.text-content {
 	#about, .about-top {
 	    width: 750px;
 	}
+	
+	.go-left, .go-right {
+	    display: block;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 568px) {
@@ -1044,7 +1048,7 @@ ul.img-list li:hover span.text-content {
 	}
 	
 	.go-left, .go-right {
-	    top: 170px;
+	    display: none;
 	}
 	
 	.work-page-text {
@@ -1077,5 +1081,9 @@ ul.img-list li:hover span.text-content {
 	
 	#about {
 		margin: 0 0 250px 0;
+	}
+	
+	.nav-work {
+		height: 100px;
 	}
 }

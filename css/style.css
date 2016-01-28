@@ -751,9 +751,6 @@ ul.img-list li:hover span.text-content {
 }
 
 @media (min-width: 569px) and (max-width: 1100px) {
-/*	header{
-		height: 450px;
-	}*/
 	
 	#work {
 	    display: none;
@@ -923,7 +920,7 @@ ul.img-list li:hover span.text-content {
 	}
 
 	nav ul {
-	    margin: 11px -30px 0 0;
+	    margin: 44px -30px 0 0;
 	    right: 40px;
 	}
 

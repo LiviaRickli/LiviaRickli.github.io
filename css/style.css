@@ -671,6 +671,11 @@ ul.img-list li:hover span.text-content {
 	margin: -45px 10px 0 -10px;
 }
 
+.go-left,
+.go-right {
+    display: block;
+}
+
 @media (min-width: 1681px){
 	
 	#main-work {
@@ -745,7 +750,7 @@ ul.img-list li:hover span.text-content {
 	}
 	
 	.work-philips {
-	    margin: 225px auto 0;
+	    margin: 60px auto 0;
 	}
 }
 
@@ -788,21 +793,11 @@ ul.img-list li:hover span.text-content {
 	    margin: 0 -20px 0 40px;
 	}
 	
-/*	.work-container-image, .work-container-text {
-		display: block;
-		width: 100%;
-	}*/
-	
 	.work-philips {
 	    margin: 65px auto 0;
 	    position: initial;
 		width: 100%;
 	}
-	
-/*	.work-container-text {
-		background-color: #e8e8e8;
-		height: 105%;
-	}*/
 	
 	.text-box-work-page {
 	    margin: 45px auto 0;
@@ -833,6 +828,10 @@ ul.img-list li:hover span.text-content {
 	.about-top {
 		margin: 0 auto;
 		width: 900px;
+	}
+	
+	.nav-work ul {
+	    display: block;
 	}
 }
 
@@ -872,10 +871,6 @@ ul.img-list li:hover span.text-content {
 	
 	#about, .about-top {
 	    width: 750px;
-	}
-	
-	.go-left, .go-right {
-	    display: block;
 	}
 }
 
@@ -1047,10 +1042,6 @@ ul.img-list li:hover span.text-content {
 	    margin: -15px 10px 0 -10px;
 	}
 	
-	.go-left, .go-right {
-	    display: none;
-	}
-	
 	.work-page-text {
 	    width: 285px;
 	}
@@ -1063,7 +1054,10 @@ ul.img-list li:hover span.text-content {
 	    margin: 0 0 25px 0;
 	}
 	
-	.box-about-me {
+	.box-about-me,
+	.nav-work ul,
+	.go-left,
+	.go-right {
 	    display: block;
 	}
 	
@@ -1081,9 +1075,5 @@ ul.img-list li:hover span.text-content {
 	
 	#about {
 		margin: 0 0 250px 0;
-	}
-	
-	.nav-work {
-		height: 100px;
 	}
 }

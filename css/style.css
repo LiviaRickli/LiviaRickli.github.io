@@ -299,8 +299,7 @@ button {
 	width: 330px;
     height: 280px;
     background-size: cover;
-/*    border: 1px solid #efefef;
-*/}
+}
 
 ul.img-list {
   list-style-type: none;
@@ -895,6 +894,11 @@ ul.img-list li:hover span.text-content {
 	
 	header {
 		height: 340px;
+	}
+	
+	.image {
+		width: 300px;
+	    height: 250px;
 	}
 	
 	.hr-top {

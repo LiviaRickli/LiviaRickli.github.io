@@ -349,7 +349,7 @@ ul.img-list li:hover span.text-content {
 }
 
 .image1 {
-    background-image: url("../images/healthprogram-philips.jpg");
+    background-image: url("../images/philips-1.png");
 }
 
 .image2 {
@@ -438,6 +438,22 @@ ul.img-list li:hover span.text-content {
 
 .image22 {
     background-image: url("../images/menucard-katoen.png");
+}
+
+.image24 {
+    background-image: url("../images/menu-ginn.png");
+}
+
+.image25 {
+    background-image: url("../images/event-superopkikker.png");
+}
+
+.image26 {
+    background-image: url("../images/banner-principlevastgoed.png");
+}
+
+.image27 {
+    background-image: url("../images/banner-perfecth.png");
 }
 
 #work {

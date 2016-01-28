@@ -19,7 +19,7 @@ body {
 
 main {
 	width: 100%;
-	margin: 50px auto;
+	margin: 50px auto 0;
 }
 
 .dummy-nav {
@@ -28,14 +28,11 @@ main {
 }
 
 nav {
-    position: fixed;
     top: 0;
     text-align: center;
     width: 100%;
     font-size: 20px;
-/*	background-color: #70A9A1;*/
 	height: 70px;
-	Z-index: 1;
 }
 
 .nav-work {
@@ -216,7 +213,7 @@ hr {
 
 #about,
 .about-top {
-	margin: 0 auto;
+	margin: -50px auto 0;
 	width: 1200px;
 }
 
@@ -501,7 +498,7 @@ ul.img-list li:hover span.text-content {
 .work-container {
 	display: inline-block;
 	vertical-align: top;
-	padding: 60px 0 0px 110px;
+	padding: 30px 0 0px 110px;
 }
 
 .work-container-text {
@@ -536,7 +533,7 @@ ul.img-list li:hover span.text-content {
 
 #work-text2{
 	font-style: italic;
-	font-size: 10px;
+	font-size: 12px;
 	padding: 40px 0 0 0;
 }
 
@@ -668,7 +665,7 @@ ul.img-list li:hover span.text-content {
 .image107,
 .image111{
 	height: 650px;
-	margin: -45px 10px 0 -10px;
+	margin: -70px 10px 0 -10px;
 }
 
 .go-left,
@@ -677,10 +674,6 @@ ul.img-list li:hover span.text-content {
 }
 
 @media (min-width: 1681px){
-	
-	#main-work {
-		height: px;
-	}
 	
 	#header-work {
 	    height: 0;
@@ -704,15 +697,6 @@ ul.img-list li:hover span.text-content {
 		font-size: 15px;
 	}
 	
-	.quote p {
-		font-size: 20px;
-		width: 450px;
-	}
-	
-	#name-quote {
-		font-size: 14px;
-	}
-	
 	.work-container {
     		padding: 90px 0 0px 110px;
 	}
@@ -731,10 +715,6 @@ ul.img-list li:hover span.text-content {
 }
 
 @media (min-width: 1441px) and (max-width: 1680px){
-	
-	#main-work {
-		height: 951px;
-	}
 	
 	#header-work {
 	    height: 0;
@@ -826,12 +806,15 @@ ul.img-list li:hover span.text-content {
 	
 	#about,
 	.about-top {
-		margin: 0 auto;
-		width: 900px;
+		width: 100%;
 	}
 	
-	.nav-work ul {
+	nav.nav-work ul {
 	    display: block;
+	}
+	
+	.profielfoto {
+		margin: 0 30px 0 30px;
 	}
 }
 
@@ -839,10 +822,6 @@ ul.img-list li:hover span.text-content {
 	
 	h3 {
 	    padding-bottom: 0px;
-	}
-	
-	.box-about-me {
-	    display: block;
 	}
 	
 	.about-top {
@@ -853,12 +832,12 @@ ul.img-list li:hover span.text-content {
 	    padding: 50px 0 0 0;
 	}
 	
-	.about-2 {
-	    margin: 250px 0 -230px 0px;
+	#about {
+	   margin: -250px 0 184px 0;
 	}
 	
-	#about {
-	    margin: -250px 0 270px 0;
+	.about-2 {
+	    display: none;
 	}
 	
 	.text-about p {
@@ -867,10 +846,6 @@ ul.img-list li:hover span.text-content {
 	
 	.wrap-experience p {
 	    width: 209px;
-	}
-	
-	#about, .about-top {
-	    width: 750px;
 	}
 }
 
@@ -900,6 +875,17 @@ ul.img-list li:hover span.text-content {
 	    height: 250px;
 	}
 	
+	ul.img-list li {
+	  height: 250px;
+	  margin: 0 20px 20px 0;
+	  width: 300px;
+	}
+
+	span.text-content {
+	  height: 250px;
+	  width: 300px;
+	}
+	
 	.hr-top {
 	    margin: 20px auto;
 	    width: 150px;
@@ -924,7 +910,7 @@ ul.img-list li:hover span.text-content {
 
 	nav ul {
 	    margin: 44px -30px 0 0;
-	    right: 40px;
+	    right: 80px;
 	}
 
 	.logo {
@@ -1004,8 +990,9 @@ ul.img-list li:hover span.text-content {
 	}
 
 	.profielfoto {
-    	width: 215px;
-    	height: 215px;
+	    width: 175px;
+	    height: 175px;
+		margin: 0 0 0 60px;
 	}
 
 	.contact p {
@@ -1054,15 +1041,15 @@ ul.img-list li:hover span.text-content {
 	    margin: 0 0 25px 0;
 	}
 	
-	.box-about-me,
-	.nav-work ul,
-	.go-left,
-	.go-right {
-	    display: block;
+	nav.nav-work ul,
+	div.go-left,
+	div.go-right {
+	    display: none;
 	}
 	
-	.about-top {
-	    padding: 90px 0 0 0px;
+	.box-about-me {
+		display: block;
+		text-align: left;
 	}
 	
 	.about-1 {
@@ -1070,10 +1057,17 @@ ul.img-list li:hover span.text-content {
 	}
 	
 	.about-2 {
-	    margin: 250px 0 -230px 0px;
+	    display: none;
 	}
 	
-	#about {
-		margin: 0 0 250px 0;
+	#about,
+	.about-top {
+	    margin: -55px 0 0 -90px;
+	    width: 305px;
+	    height: 330px;
+	}
+	
+	.about-next {
+		margin: 600px 0 -240px -304px;
 	}
 }

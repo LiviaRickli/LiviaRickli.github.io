@@ -38,7 +38,7 @@ app.controller('workCtrl',function($window, $scope, $resource,$location){
 					if($scope.index > 0){
 						$scope.index = $scope.index-1;
                         } else {
-                        $scope.index = 0;
+							$scope.index = content.length-1;
                         }
                         $scope.contentItem = content[$scope.index];
                         }
